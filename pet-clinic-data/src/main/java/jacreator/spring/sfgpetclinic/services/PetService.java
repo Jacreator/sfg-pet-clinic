@@ -1,9 +1,8 @@
 package jacreator.spring.sfgpetclinic.services;
 
+import jacreator.spring.sfgpetclinic.mdoel.Pet;
+
 import java.util.Set;
 
-public interface PetService {
-    PetService findById(Long id);
-    PetService save(PetService pet);
-    Set<PetService> findAll();
+public interface PetService extends CrudService<Pet, Long> {
 }
