@@ -1,6 +1,6 @@
 package jacreator.spring.sfgpetclinic.mdoel;
 
-public class Person {
+public class Person extends BaseEntity{
     private String firstName;
     private String lastName;
 

@@ -2,7 +2,7 @@ package jacreator.spring.sfgpetclinic.mdoel;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends Person {
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
