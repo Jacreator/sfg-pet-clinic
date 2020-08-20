@@ -5,6 +5,22 @@
     <title>Pet Clinic Pet Index</title>
 </head>
 <body>
+<!--/*@thymesVar id="owner" type="jacreator.spring.sfgpetclinic.mdoel.Owner" */-->
 <h1 th:text="'Owners Page'">Index Page</h1>
+<table>
+    <thead>
+    <tr>
+    <tr>Id</tr>
+    <tr>First Name</tr>
+    <tr>Last Names</tr>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="owner : ${owners}"></tr>
+    <td th:text="${owner?.id}">1</td>
+    <td th:text="${owner?.firstName}"></td>
+    <td th:text="${owner?.lastName}"></td>
+    </tbody>
+</table>
 </body>
 </html>
