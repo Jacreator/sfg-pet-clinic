@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Clinic Vet Index</title>
+</head>
+<body>
+<!--/*@thymesVar id="vet" type="jacreator.spring.sfgpetclinic.mdoel.Vet" */-->
+<h1 th:text="'list of Vets'">List of Vets....</h1>
+<table>
+    <thead>
+    <tr>
+    <tr>Id</tr>
+    <tr>First Name</tr>
+    <tr>Last Names</tr>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="vet : ${vets}"></tr>
+    <td th:text="${vet?.id}">1</td>
+    <td th:text="${vet?.firstName}"></td>
+    <td th:text="${vet?.lastName}"></td>
+    </tbody>
+</table>
+</body>
+</html>
