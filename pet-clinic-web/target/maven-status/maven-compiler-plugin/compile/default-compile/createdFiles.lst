@@ -1,1 +1,5 @@
+jacreator\spring\sfgpetclinic\controllers\IndexController.class
+jacreator\spring\sfgpetclinic\bootstrap\DataLoader.class
 jacreator\spring\sfgpetclinic\SfgPetClinicApplication.class
+jacreator\spring\sfgpetclinic\controllers\VetController.class
+jacreator\spring\sfgpetclinic\controllers\OwnerController.class

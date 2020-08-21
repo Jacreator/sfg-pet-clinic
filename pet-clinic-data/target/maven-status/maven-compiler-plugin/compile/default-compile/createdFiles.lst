@@ -1,5 +1,14 @@
+jacreator\spring\sfgpetclinic\services\VetService.class
+jacreator\spring\sfgpetclinic\services\map\PetServiceMap.class
 jacreator\spring\sfgpetclinic\mdoel\Owner.class
+jacreator\spring\sfgpetclinic\services\CrudService.class
 jacreator\spring\sfgpetclinic\mdoel\Pet.class
-jacreator\spring\sfgpetclinic\mdoel\Person.class
 jacreator\spring\sfgpetclinic\mdoel\Vet.class
+jacreator\spring\sfgpetclinic\services\map\AbstractMapService.class
+jacreator\spring\sfgpetclinic\services\OwnerService.class
+jacreator\spring\sfgpetclinic\services\map\OwnerServiceMap.class
+jacreator\spring\sfgpetclinic\services\map\VetServiceMap.class
+jacreator\spring\sfgpetclinic\services\PetService.class
+jacreator\spring\sfgpetclinic\mdoel\Person.class
+jacreator\spring\sfgpetclinic\mdoel\BaseEntity.class
 jacreator\spring\sfgpetclinic\mdoel\PetType.class

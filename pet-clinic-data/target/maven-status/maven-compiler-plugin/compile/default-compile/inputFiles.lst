@@ -1,8 +1,14 @@
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\PetService.java
-C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\Vet.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\map\PetServiceMap.java
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\Owner.java
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\VetService.java
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\Person.java
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\Pet.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\CrudService.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\map\OwnerServiceMap.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\Vet.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\map\VetServiceMap.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\BaseEntity.java
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\OwnerService.java
+C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\services\map\AbstractMapService.java
 C:\Users\jambo\Documents\SpringProject\sfg-pet-clinic\pet-clinic-data\src\main\java\jacreator\spring\sfgpetclinic\mdoel\PetType.java
