@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"  th:replace="~{fragments/layout :: layout (~{::body},'owners')}">
 <head>
     <meta charset="UTF-8">
     <title>Pet Clinic Vet Index</title>
 </head>
 <body>
 <!--/*@thymesVar id="vet" type="jacreator.spring.sfgpetclinic.mdoel.Vet" */-->
-<h1 th:text="'list of Vets'">List of Vets....</h1>
-<table>
+<h2 th:text="'list of Vets'">List of Vets....</h2>
+<table class="table table-striped">
     <thead>
-    <tr>
-    <tr>Id</tr>
-    <tr>First Name</tr>
-    <tr>Last Names</tr>
-    </tr>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Names</th>
+        </tr>
     </thead>
     <tbody>
-    <tr th:each="vet : ${vets}"></tr>
-    <td th:text="${vet?.id}">1</td>
-    <td th:text="${vet?.firstName}"></td>
-    <td th:text="${vet?.lastName}"></td>
+        <tr th:each="vet : ${vets}">
+            <td th:text="${vet?.id}">1</td>
+            <td th:text="${vet?.firstName}"></td>
+            <td th:text="${vet?.lastName}"></td>
+        </tr>
     </tbody>
 </table>
 </body>

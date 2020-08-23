@@ -12,21 +12,11 @@
     <artifactId>pet-clinic-web</artifactId>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>11</java.version>
-        <jaxb.version>2.3.0</jaxb.version>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
         <!-- Web dependencies -->
         <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
         <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
         <webjars-jquery.version>2.2.4</webjars-jquery.version>
         <wro4j.version>1.8.0</wro4j.version>
-
-        <jacoco.version>0.8.5</jacoco.version>
-        <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
-        <spring-format.version>0.0.22</spring-format.version>
     </properties>
 
 
