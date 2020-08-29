@@ -1,6 +1,6 @@
 package jacreator.spring.sfgpetclinic.bootstrap;
 
-import jacreator.spring.sfgpetclinic.mdoel.*;
+import jacreator.spring.sfgpetclinic.model.*;
 import jacreator.spring.sfgpetclinic.services.OwnerService;
 import jacreator.spring.sfgpetclinic.services.PetTypeService;
 import jacreator.spring.sfgpetclinic.services.SpecialitiesService;

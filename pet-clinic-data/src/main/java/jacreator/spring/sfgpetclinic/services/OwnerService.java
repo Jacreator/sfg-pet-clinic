@@ -1,6 +1,6 @@
 package jacreator.spring.sfgpetclinic.services;
 
-import jacreator.spring.sfgpetclinic.mdoel.Owner;
+import jacreator.spring.sfgpetclinic.model.Owner;
 
 import java.util.Set;
 
