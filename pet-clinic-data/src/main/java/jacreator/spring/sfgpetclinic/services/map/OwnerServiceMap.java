@@ -1,7 +1,7 @@
 package jacreator.spring.sfgpetclinic.services.map;
 
-import jacreator.spring.sfgpetclinic.mdoel.Owner;
-import jacreator.spring.sfgpetclinic.mdoel.Pet;
+import jacreator.spring.sfgpetclinic.model.Owner;
+import jacreator.spring.sfgpetclinic.model.Pet;
 import jacreator.spring.sfgpetclinic.services.OwnerService;
 import jacreator.spring.sfgpetclinic.services.PetService;
 import jacreator.spring.sfgpetclinic.services.PetTypeService;

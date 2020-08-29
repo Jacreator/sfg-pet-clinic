@@ -1,7 +1,9 @@
-package jacreator.spring.sfgpetclinic.mdoel;
+package jacreator.spring.sfgpetclinic.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "Pets")
@@ -20,6 +22,9 @@ public class Pet extends Person {
 
     @Column(name = "birth_date")
     private LocalDate birthDate;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
+    private Set<Visit> visitSet = new HashSet<>();
 
     public String getName() {
         return name;
@@ -51,5 +56,13 @@ public class Pet extends Person {
 
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
+    }
+
+    public Set<Visit> getVisitSet() {
+        return visitSet;
+    }
+
+    public void setVisitSet(Set<Visit> visitSet) {
+        this.visitSet = visitSet;
     }
 }

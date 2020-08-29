@@ -1,4 +1,4 @@
-package jacreator.spring.sfgpetclinic.mdoel;
+package jacreator.spring.sfgpetclinic.model;
 
 import javax.persistence.*;
 import java.util.HashSet;

@@ -1,6 +1,6 @@
 package jacreator.spring.sfgpetclinic.services.map;
 
-import jacreator.spring.sfgpetclinic.mdoel.Specialty;
+import jacreator.spring.sfgpetclinic.model.Specialty;
 import jacreator.spring.sfgpetclinic.services.SpecialitiesService;
 import org.springframework.stereotype.Service;
 

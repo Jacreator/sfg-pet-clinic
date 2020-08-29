@@ -1,9 +1,4 @@
-package jacreator.spring.sfgpetclinic.mdoel;
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+package jacreator.spring.sfgpetclinic.model;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
