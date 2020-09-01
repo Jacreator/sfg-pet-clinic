@@ -10,7 +10,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
-
 @Profile("springDataJPA")
 public class VetSDJpaService implements VetService {
 
