@@ -1,14 +1,12 @@
 package jacreator.spring.sfgpetclinic.bootstrap;
 
 import jacreator.spring.sfgpetclinic.model.*;
-import jacreator.spring.sfgpetclinic.services.OwnerService;
-import jacreator.spring.sfgpetclinic.services.PetTypeService;
-import jacreator.spring.sfgpetclinic.services.SpecialitiesService;
-import jacreator.spring.sfgpetclinic.services.VetService;
+import jacreator.spring.sfgpetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -17,12 +15,14 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialitiesService specialitiesService;
+    private final VisitService visitService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialitiesService specialitiesService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialitiesService specialitiesService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialitiesService = specialitiesService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -45,7 +45,7 @@ public class DataLoader implements CommandLineRunner {
         cat.setName("Lion");
         PetType savedLionPetType = petTypeService.save(lion); // saving and passing the result into a variable
 
-//        passing out Pettype data out
+//        passing out PetType data out
         System.out.println("PetType loaded...");
 
 //        Specialties
@@ -72,9 +72,17 @@ public class DataLoader implements CommandLineRunner {
         jamesPet.setOwner(user1);
         jamesPet.setName("rco");
         jamesPet.setBirthDate(LocalDate.now());
-        user1.getPets().add(jamesPet);
+        user1.getPets().add(jamesPet); // set Owner to Pet
 
         ownerService.save(user1);  // saving of user 1
+
+//        adding Visit
+        Visit petOneVisit = new Visit();
+        petOneVisit.setPet(jamesPet);
+        petOneVisit.setDate(LocalTime.now());
+        petOneVisit.setDescription("brave rco");
+
+        visitService.save(petOneVisit); // Saving Visit of James Pet
 
 //        adding Owner 2
         Owner user2 = new Owner();
